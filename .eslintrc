@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "@wttsolutions/eslint-config/react",
+    //"@wttsolutions/eslint-config" (if no React)
+  ],
+  rules: {
+    // any local rules & exceptions if really necessary
+    // "no-var": "off"
+  }
+}

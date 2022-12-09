@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#. "$(dirname -- "$0")/_/husky.sh"
+
+# set NOLINT variable to skip linting
+if [[ -z $NOLINT ]]; then
+    yarn lint-staged
+fi    
+
+
+

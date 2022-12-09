@@ -1,0 +1,10 @@
+{
+  "*.(js|jsx)": [
+    "yarn prettier --write",
+    "yarn eslint --fix"
+  ],
+  "*.(css|scss)": [
+    "yarn prettier --write",
+    "yarn stylelint --fix"
+  ]
+}

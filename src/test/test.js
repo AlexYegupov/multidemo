@@ -4,4 +4,5 @@ const BBBBBBBBBBB = 'BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB'
 //       console.log(BBBBBBBBBBB);  10
 //
 //
-var KKK=11;
+const KKK = 11;
+var KKK12=11;

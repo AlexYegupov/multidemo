@@ -1,9 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 
-const a = 'AAAAAAAAAAAAAAAAAA'
-  + 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA';
-
 function App() {
   return (
     <div className="App">
@@ -11,10 +8,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit
-{' '}
-<code>src/App.js</code>
-{' '}
-and save to reload.
+          <code>src/App.js</code>
+          and save to reload.
         </p>
         <a
           className="App-link"

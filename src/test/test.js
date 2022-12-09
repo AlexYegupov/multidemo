@@ -5,4 +5,7 @@ const BBBBBBBBBBB = 'BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB'
 //
 //
 const KKK = 11;
-var KKK12=11;
+const KKK12 = 11;
+var KKK13=11;
+KKK13="`date`";
+KKK = '11'

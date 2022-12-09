@@ -1,5 +1,6 @@
 {
   "*.(js|jsx)": [
+    "echo",
     "yarn prettier:fix",
     "yarn lint:fix"
   ]

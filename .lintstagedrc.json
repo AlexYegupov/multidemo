@@ -1,6 +1,10 @@
 {
   "*.(js|jsx)": [
-    "prettier --write",
-    "eslint --fix"
+    "yarn prettier --write",
+    "yarn eslint --fix"
+  ],
+  "*.(css)": [
+    "yarn prettier --write",
+    "yarn stylelint --fix"
   ]
 }

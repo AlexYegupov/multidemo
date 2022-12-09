@@ -17,8 +17,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepare": "husky install",
-    "prettier": "prettier --check src/**/*.{js,jsx}",
-    "prettier:fix": "prettier --write src/**/*.{js,jsx}",
+    "prettify": "prettier --check src/**/*.{js,jsx}",
+    "prettify:fix": "prettier --write src/**/*.{js,jsx}",
     "lint": "eslint src",
     "lint:fix": "eslint --fix src"
   },
@@ -39,6 +39,8 @@
     "eslint": "^8.29.0",
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",
-    "prettier": "^2.8.0"
+    "prettier": "^2.8.0",
+    "stylelint": "^14.16.0",
+    "stylelint-config-standard": "^29.0.0"
   }
 }

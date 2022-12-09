@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+#. "$(dirname -- "$0")/_/husky.sh"
+
+COMMIT_MSG=`cat $1`
+
+if [[ $COMMIT_MSG =~ "WIP" ]]; then
+    echo Found "WIP" in commit message, skip linting
+    exit 0
+fi
+
+yarn lint-staged
+
+

@@ -1,1 +1,1 @@
-[link to home](home)
+[link to Home](Home)

@@ -105,7 +105,7 @@ dfdf
 dfdf
 dfdf
 
-[[My tagged element]]
+
 dfdfsdaffdas
 
 dfdf

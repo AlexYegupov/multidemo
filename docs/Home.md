@@ -1,6 +1,6 @@
 This is home page.
 
-[[My page 3#some-chapter]]
+[[my link to page3 -> some chapter|My page 3#some-chapter]]
 
 
-[L](My page 3#some-chapter)
+[Link topage3 -> some chapter](My page 3#some-chapter)

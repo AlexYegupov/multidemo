@@ -8,3 +8,5 @@ This is home page.
 ![my image](myimage.png)
 
 ![my](myimage.png)
+
+[[myimage.png|aaa]]

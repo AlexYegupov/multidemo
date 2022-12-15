@@ -5,8 +5,8 @@ This is home page.
 
 [Link topage3 -> some chapter](My page 3#some-chapter)
 
-![my image](myimage.png)
+[my image](myimage.png)
 
-![my](myimage.png)
+[my](myimage.png)
 
 [[myimage.png|aaa]]

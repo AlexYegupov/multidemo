@@ -1,0 +1,3 @@
+[submodule "multidemo.wiki"]
+	path = multidemo.wiki
+	url = git@github.com:AlexYegupov/multidemo.wiki.git

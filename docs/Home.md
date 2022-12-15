@@ -5,4 +5,4 @@ This is home page.
 
 [Link topage3 -> some chapter](My page 3#some-chapter)
 
-![fddf](myimage.jpg)
+![my image](myimage.png)

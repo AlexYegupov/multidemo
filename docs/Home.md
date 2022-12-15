@@ -1,6 +1,6 @@
-11112 [link to page3](page3#Some_chapter)
+This is home page.
 
-[[My page 3#some-chapter]]
+[[My page 3#Some-chapter]]
 
 
-[L](My Page3#Some-chapter)
+[L](My page 3#Some-chapter)

@@ -104,7 +104,10 @@ dfdf
 dfdf
 dfdf
 dfdf
+
+[[My tagged element]]
 dfdfsdaffdas
+
 dfdf
 dfdf
 dfdf

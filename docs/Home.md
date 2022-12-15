@@ -3,4 +3,4 @@
 [[My page 3#some chapter]]
 
 
-[L](My Page3#Some_chapter)
+[L](My Page3#Some-chapter)

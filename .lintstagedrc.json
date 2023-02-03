@@ -3,7 +3,7 @@
     "yarn prettier --write",
     "yarn eslint --fix"
   ],
-  "*.(css|scss)": [
+  "{src,public}/**/*.(css|scss)": [
     "yarn prettier --write",
     "yarn stylelint --fix"
   ]

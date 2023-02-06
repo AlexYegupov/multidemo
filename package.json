@@ -21,10 +21,10 @@
     "prettify:fix": "prettier --write src/**/*.{js,jsx}",
     "lint": "eslint src",
     "lint:fix": "eslint --fix src",
-    "build-docs": "rm -rf ./docs/_sidebar.md && yarn build-docs:remark && yarn build-docs:docsify",
-    "build-docs:remark": "yarn remark -f ./docs -o ./docs",
-    "build-docs:docsify": "./bin/build-docsify.sh",
-    "preview-docs": "(cd docs && python3 -m http.server $PORT||3000)"
+    "docs:build": "rm -rf ./docs/_sidebar.md && yarn docs:build:remark && yarn docs:build:docsify",
+    "docs:build:remark": "yarn remark -f ./docs -o ./docs",
+    "docs:build:docsify": "./bin/build-docsify.sh",
+    "docs:preview": "(cd docs && python3 -m http.server $PORT||3000)"
   },
   "browserslist": {
     "production": [

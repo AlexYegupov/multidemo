@@ -8,6 +8,14 @@ Project documentation is a place where the developer/manager/customer can see WH
 
 Assumed that project documentation is created __mainly__ by the developer alongside the code changes but __sometimes__ can be improved by QA, manager or customer (anyone else who can edit markdowns & commit to git)
 
+## Quick start
+
+``` 
+yarn 
+yarn docs:build
+yarn docs:preview
+```
+and see the demo docs at the `http://localhost:3000`
 
 ## Technical details
 

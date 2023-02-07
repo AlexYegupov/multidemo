@@ -1,12 +1,12 @@
 # Project documenting
 
-****TL;DR****; write documentation to markdown files, store them in project repository and view in browser (see `package.json -> scripts -> docs:build`)
+****TL;DR****; write documentation to markdown files, store them in the project repository and view them in the browser (see `package.json -> scripts -> docs:build`)
 
 ## Motivation
 
-Project documentation is a place where developer/manager/customer can see WHY something was implemented on the project and WHICH WAY. Good documentation lets anyone to get an answers on the questions like: "why this feature was implemented?", "What is this feature related to?", "Do we still need it?", "Hot to test it?" while a project is developing and changing.
+Project documentation is a place where the developer/manager/customer can see WHY something was implemented on the project and WHICH WAY. Good documentation lets anyone get answers to the questions like: "why this feature was implemented?", "What is this feature related to?", "Do we still need it?", "Hot to test it?" while a project is developing and changing.
 
-Assummed that project documentation is created __mainly__ by the developer alongside with the code changes but __sometimes__ can be improved by QA, manager or customer (anyone else who can edit markdowns & commit to git)
+Assumed that project documentation is created __mainly__ by the developer alongside the code changes but __sometimes__ can be improved by QA, manager or customer (anyone else who can edit markdowns & commit to git)
 
 
 ## Technical details
@@ -23,19 +23,19 @@ MARKDOWN --(remark)--> MARKOWN --(docsify)--> BROWSER
 
 ### Why in this way?
 
-Why to documentise plain markdowns instead of something like cool online wiki WYSIWYG?
+Why document plain markdowns instead of some cool online wiki WYSIWYG?
 
 Proc:
   - easy to modify (any plain text editor OR VSCode md editor)
 
-  - easy to read (directly OR in browser+markdown plugin OR in simply in browser after markdown->html convertion (see p.3)
+  - easy to read (directly OR in browser+markdown plugin OR in simply in the browser after markdown->html convertion (see p.3)
 
-  - documentation is always synchronized with functionality and it's possitle to see a documentation **changes** (for example to QA)
+  - documentation is always synchronized with functionality and it's possible to see documentation **changes** (for example to QA)
 
-  - QA can easily see DIFF changes in documentation => can pay attentiions to the correspondent parts of the system that were changed
+  - QA can easily see DIFF changes in documentation => can pay attention to the correspondent parts of the system that were changed
 
 Cons:
-  - necessity to create git commit on documentation changes.
+  - the necessity to create a git commit on documentation changes.
 
 
 
@@ -57,21 +57,21 @@ Either:
 
 * VSCode > Markdown Paste extenstion & Ctrl+Alt+v hotkey
 * VSCode > drag&drop & manual fix path
-* VSCode > Ctrl+Shift+p > "markdown insert image from the workspace" (can set custom key for this)
+* VSCode > Ctrl+Shift+p > "markdown insert an image from the workspace" (can set the custom key for this)
 * By any text editor manually ![my image](myimage.jpg)
 
 
-#### Add link to markdown
+#### Add a link to markdown
 
 Either:
 
 * by any text editor manually
-* `VSCode >  Ctrl+Shift+p > "markdown insert image from the workspace"` (can set custom key for this)
-* VSCode > type `[]()` and press `Ctrl+space` inside `()` and in the dropdown select desired locaton like "file.md#chapter"
+* `VSCode >  Ctrl+Shift+p > "markdown insert an image from the workspace"` (can set the custom hotkey for this)
+* VSCode > type `[]()` and press `Ctrl+space` inside `()` and in the dropdown select a desired location like "file.md#chapter"
 
 * Manually by any text editor `[user](glossary.md#user)`
 
-Also consider using markdown **definiton links** as a recommented way of using links that are repeated on a page
+Also consider using markdown **definition links** as a recommended way of using links that are repeated on a page
 
 
 #### Possible Docsify -> Rehype replacement in future
@@ -83,7 +83,7 @@ In case of problems with docsify it's possible to use rehype to convert md to ht
 
 #### Which to choose: remark plugin or docsify plugin
 
-Use remark plugins when need to process the PRIMARY markdown data (check links, validate syntax etc) and use docsify plugins when need PRESENT markdown data (like show TOC, search on site, styling etc)
+Use remark plugins when need to process the PRIMARY markdown data (check links, validate syntax, etc) and use docsify plugins when need PRESENT markdown data (like show TOC, search on site, styling, etc)
 
 
 
@@ -103,8 +103,8 @@ Explore - unified https://unifiedjs.com/explore/
 Quick start https://docsify.js.org/#/quickstart
 
 
-Tools to convert an items like "JIRA-123" to a links:
- - autolink items like JIRA-123 to links using one of:
+Tools to convert items like "JIRA-123" to links:
+ - autolink items like JIRA-123 to links using one of the:
    - https://gitlab.com/staltz/remark-linkify-regex
    - https://unifiedjs.com/explore/package/remark-autolink-references/
    - https://github.com/remarkjs/remark-gfm
@@ -128,13 +128,13 @@ Imagine we have a Login form:
    OK
 ```
 
-Good documentation shouldn't say things like "when user need to log in the login page is displayed. Input your login, password and promo to the correspondent fiedl and press OK".
+Good documentation shouldn't say things like "when the user needs to log in the login page is displayed. Input your login, password and promo to the correspondent field and press OK".
 
-Instead consider the aspects like following:
+Instead, consider the aspects like following:
 
-* How we get to this form?
-* Who is user?
+* How did we get to this form?
+* Who is the user?
 * Why user need to log in to a site? Which benefits it gives to him?
 * Where user should get the data required by the form?
 * What if user data are lost/incorrect?
-* what are the detailed aspects of the desired data (login allowed chars, password length, promo case)
+* What are the detailed aspects of the desired data (login allowed chars, password length, promo case)

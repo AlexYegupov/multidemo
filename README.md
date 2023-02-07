@@ -1,54 +1,29 @@
 # Project documenting
 
-****TL;DR****; write documentation to markdown files, store them in project repository and use docsify to preview in browser (see `package.json -> scripts -> docs:build`)
+****TL;DR****; write documentation to markdown files, store them in project repository and view in browser (see `package.json -> scripts -> docs:build`)
 
-## Why?
+## Motivation
 
-Project documentation is a place where developer/manager/customer can see WHY something was implemented on the project and WHICH WAY. Good documentation lets anyone to get an answers on the questions like: "why this feature was implemented?", "What is this feature related to?", "Do we still need it?", "Hot to test it?" while the project is developing and changing.
+Project documentation is a place where developer/manager/customer can see WHY something was implemented on the project and WHICH WAY. Good documentation lets anyone to get an answers on the questions like: "why this feature was implemented?", "What is this feature related to?", "Do we still need it?", "Hot to test it?" while a project is developing and changing.
 
 Assummed that project documentation is created __mainly__ by the developer alongside with the code changes but __sometimes__ can be improved by QA, manager or customer (anyone else who can edit markdowns & commit to git)
-
-## How to create a cool documentation
-
-Focus on the question WHY everywhere and skip obvious details
-
-Imagine we have a Login form:
-
-```
-   login    [      ]
-   password [      ]
-   promo    [      ]
-
-   OK
-```
-
-Good documentation shouldn't say things like "when user need to log in the login page is displayed. Input your login, password and promo to the correspondent fiedl and press OK".
-
-Instead consider the aspects like following:
-
-* How we get to this form?
-* Who is user?
-* Why user need to log in to a site? Which benefits it gives to him?
-* Where user should get the data required by the form?
-* What if user data are lost/incorrect?
-* what are the detailed aspects of the desired data (login allowed chars, password length, promo case)
-
 
 
 ## Technical details
 
-1. Write documentation to markdown files an keep them in the project repository.
+1. Write documentation to markdown files and keep them in the project repository.
 
-2. Validate markdown files by remark & plugins (formatting, styling, template substitution, link check, etc)
+2. Validate markdowns by remark & plugins (formatting, styling, template substitution, link check, etc)
 
-3. Show in browser (using docsify & plugins js lib)
+3. View markdowns in a browser (using docsify js lib)
 
-```MARKDOWN --(remark)--> MARKOWN --(docsify)--> BROWSER
+```
+MARKDOWN --(remark)--> MARKOWN --(docsify)--> BROWSER
 ```
 
-### Why this way?
+### Why in this way?
 
-Why to use plain markdowns instead of something like online wiki WYSIWYG?
+Why to documentise plain markdowns instead of something like cool online wiki WYSIWYG?
 
 Proc:
   - easy to modify (any plain text editor OR VSCode md editor)
@@ -138,3 +113,28 @@ Tools to convert an items like "JIRA-123" to a links:
 
 #### TODO
  - link prevew
+
+## How to create a cool documentation
+
+Focus on the question WHY everywhere and skip obvious details
+
+Imagine we have a Login form:
+
+```
+   login    [      ]
+   password [      ]
+   promo    [      ]
+
+   OK
+```
+
+Good documentation shouldn't say things like "when user need to log in the login page is displayed. Input your login, password and promo to the correspondent fiedl and press OK".
+
+Instead consider the aspects like following:
+
+* How we get to this form?
+* Who is user?
+* Why user need to log in to a site? Which benefits it gives to him?
+* Where user should get the data required by the form?
+* What if user data are lost/incorrect?
+* what are the detailed aspects of the desired data (login allowed chars, password length, promo case)

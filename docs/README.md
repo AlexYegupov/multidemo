@@ -20,6 +20,7 @@ Autolink by regexp (remark-autolink-references):  <!-- "JIRA- 123" without space
 Image: ![my image](favicon.ico)
 
 Table:
+
 <table>
   <tr>
     <th>Test</th>
@@ -35,7 +36,7 @@ Table:
   </tr>
 </table>
 
-formatting: **bold**  ___italic___ <s>strikethrough</s>
+formatting: **bold**  ***italic*** <s>strikethrough</s>
 
     this
       is

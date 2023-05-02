@@ -138,6 +138,7 @@ Imagine we have a Login form:
 
 Good documentation shouldn't say things like "when the user needs to log in the login page is displayed. Input your login, password and promo to the correspondent field and press OK".
 
+
 Instead, consider the aspects like following:
 
 * How did we get to this form?

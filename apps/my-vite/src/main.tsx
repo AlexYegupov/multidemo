@@ -9,6 +9,8 @@ interface User {
   name: string;
 }
 
+//let aa = 4; aa += 'R_OK';
+
 function test(u: User) {
   //  console.log(u.name2)
   u.name = 'asdf'

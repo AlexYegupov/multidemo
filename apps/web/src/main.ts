@@ -2,6 +2,9 @@ import "./style.css";
 import typescriptLogo from "./typescript.svg";
 import { Header, Counter, setupCounter } from "ui";
 
+// console.log('test')
+// var a = 10;
+
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">

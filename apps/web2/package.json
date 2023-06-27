@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "pnpify tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint \"src/**/*.ts\""
   },
   "dependencies": {
+    "@yarnpkg/pnpify": "^4.0.0-rc.46",
     "ui": "*"
   },
   "devDependencies": {

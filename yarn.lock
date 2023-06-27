@@ -815,7 +815,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/pnpify@npm:^4.0.0-rc.45":
+"@yarnpkg/pnpify@npm:^4.0.0-rc.45, @yarnpkg/pnpify@npm:^4.0.0-rc.46":
   version: 4.0.0-rc.46
   resolution: "@yarnpkg/pnpify@npm:4.0.0-rc.46"
   dependencies:
@@ -3609,6 +3609,7 @@ __metadata:
   dependencies:
     "@typescript-eslint/eslint-plugin": ^5.60.1
     "@typescript-eslint/parser": ^5.60.1
+    "@yarnpkg/pnpify": ^4.0.0-rc.46
     eslint: ^8.43.0
     eslint-config-custom: "*"
     tsconfig: "*"

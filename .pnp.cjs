@@ -4403,6 +4403,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["web2", "workspace:apps/web2"],\
             ["@typescript-eslint/eslint-plugin", "virtual:f7bc41586b68b5179d26bce3bfb89ba68358f8cd7c2ddff4083d94b6829a704acc2424da9379676891d28c060e6d7ef24661ff4a113dbb2daf852983923aee3a#npm:5.60.1"],\
             ["@typescript-eslint/parser", "virtual:f7bc41586b68b5179d26bce3bfb89ba68358f8cd7c2ddff4083d94b6829a704acc2424da9379676891d28c060e6d7ef24661ff4a113dbb2daf852983923aee3a#npm:5.60.1"],\
+            ["@yarnpkg/pnpify", "npm:4.0.0-rc.46"],\
             ["eslint", "npm:8.43.0"],\
             ["eslint-config-custom", "workspace:packages/eslint-config-custom"],\
             ["tsconfig", "workspace:packages/tsconfig"],\

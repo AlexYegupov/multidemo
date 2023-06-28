@@ -3354,6 +3354,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-refresh", "virtual:c1fa44869b111b9f97e7f59eb450712544bc79368fecabaa4ef9f56d38e99f1fc80f092045c66c88d09ff82dbb3b5127f7ca5568bc56600099a2b2d6597cb30e#npm:0.3.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:c1fa44869b111b9f97e7f59eb450712544bc79368fecabaa4ef9f56d38e99f1fc80f092045c66c88d09ff82dbb3b5127f7ca5568bc56600099a2b2d6597cb30e#npm:18.2.0"],\
+            ["tsconfig", "workspace:packages/tsconfig"],\
             ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=77c9e2"],\
             ["vite", "virtual:ba56dc173c7ece72e1480aefcd1d10cda1629de2daa7f61b603fae838675c08883d872a9392eb3e84cc530eed79a8c2786d69c2798b8351fc0bd584f41a8d550#npm:4.3.9"]\
           ],\

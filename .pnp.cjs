@@ -4344,10 +4344,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./apps/web/",\
           "packageDependencies": [\
             ["web", "workspace:apps/web"],\
-            ["@typescript-eslint/eslint-plugin", "virtual:9dce388d82c018b4a7af5edc7243e51f7023d1ab93a923b3959d0066ac6881c93b965a0932486426cbefa96c9c8e47849d5ff541d2404b8aca246480fa32f0d2#npm:5.60.1"],\
-            ["@typescript-eslint/parser", "virtual:9dce388d82c018b4a7af5edc7243e51f7023d1ab93a923b3959d0066ac6881c93b965a0932486426cbefa96c9c8e47849d5ff541d2404b8aca246480fa32f0d2#npm:5.60.1"],\
+            ["@typescript-eslint/eslint-plugin", "virtual:f7bc41586b68b5179d26bce3bfb89ba68358f8cd7c2ddff4083d94b6829a704acc2424da9379676891d28c060e6d7ef24661ff4a113dbb2daf852983923aee3a#npm:5.60.1"],\
+            ["@typescript-eslint/parser", "virtual:f7bc41586b68b5179d26bce3bfb89ba68358f8cd7c2ddff4083d94b6829a704acc2424da9379676891d28c060e6d7ef24661ff4a113dbb2daf852983923aee3a#npm:5.60.1"],\
             ["@yarnpkg/pnpify", "npm:4.0.0-rc.46"],\
-            ["eslint", "npm:7.32.0"],\
+            ["eslint", "npm:8.43.0"],\
             ["eslint-config-custom", "workspace:packages/eslint-config-custom"],\
             ["tsconfig", "workspace:packages/tsconfig"],\
             ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=77c9e2"],\

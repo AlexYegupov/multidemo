@@ -3604,10 +3604,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:apps/web"
   dependencies:
-    "@typescript-eslint/eslint-plugin": ^5.59.6
-    "@typescript-eslint/parser": ^5.59.6
+    "@typescript-eslint/eslint-plugin": ^5.59.11
+    "@typescript-eslint/parser": ^5.59.0
     "@yarnpkg/pnpify": ^4.0.0-rc.46
-    eslint: ^7.32.0
+    eslint: ^8.38.0
     eslint-config-custom: "*"
     tsconfig: "*"
     typescript: ^5.0

@@ -16,10 +16,11 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "@typescript-eslint/parser": "^5.60.1",
+    "@yarnpkg/pnpify": "^4.0.0-rc.46",
     "eslint": "^8.43.0",
     "eslint-config-custom": "*",
     "tsconfig": "*",
     "typescript": "^5.0",
-    "vite": "^4.0.3"
+    "vite": "^4.3.9"
   }
 }

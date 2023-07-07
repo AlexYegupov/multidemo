@@ -11,11 +11,16 @@
     "inlineSources": false,
     "isolatedModules": true,
     "moduleResolution": "bundler",
-    "noUnusedLocals": false,
+    "noUnusedLocals": false, /*??true*/
     "noUnusedParameters": false,
     "preserveWatchOutput": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "allowImportingTsExtensions": true,
+    //!! "resolveJsonModule": true.
+    /* free typing! */
+    "noImplicitAny": false,
+    "noImplicitThis": false
   },
   "exclude": ["node_modules"]
 }

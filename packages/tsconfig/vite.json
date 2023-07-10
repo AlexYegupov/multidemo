@@ -5,7 +5,7 @@
     "useDefineForClassFields": true,
     "module": "ESNext",
     "lib": ["ESNext", "DOM", "DOM.Iterable"/*??*/],
-    /*?? "jsx": "react-jsx", */
+    "jsx": "react-jsx",
     "sourceMap": true,
     "noEmit": true,
     "noUnusedLocals": true,

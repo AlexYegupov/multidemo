@@ -4,7 +4,7 @@ import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 import './App.css'
 
-let aa = 4; aa += 'R_OK';
+//let aa = 4; aa += 'R_OK';
 
 console.log(`React,`, React)
 

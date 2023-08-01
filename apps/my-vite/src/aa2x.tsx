@@ -1,0 +1,1 @@
+/home/av/dev/multidemo/apps/my-vite/src/aa2.ts

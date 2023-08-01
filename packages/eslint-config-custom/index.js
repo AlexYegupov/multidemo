@@ -15,6 +15,7 @@ module.exports = {
   },
   rules: {
     "@typescript-eslint/no-non-null-assertion": "off",
-    "no-var": "error"
+    "no-var": "error",
+    "no-compare-neg-zero": "warn"
   },
 };

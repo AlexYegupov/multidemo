@@ -20,7 +20,9 @@
     "resolveJsonModule": true,
     /* free typing */
     "noImplicitAny": false,
-    "noImplicitThis": false
+    "noImplicitThis": false,
+    "allowJs": true,
+    "checkJs": true
   },
   "exclude": ["node_modules"]
 }

@@ -1,6 +1,35 @@
+// module.exports = {
+//   env: {
+//     node: true,
+//   },
+//   extends: [
+//     'eslint:recommended',
+//     'plugin:@typescript-eslint/recommended'
+//     //'plugin:@typescript-eslint/recommended-type-checked',
+//   ],
+//   parser: '@typescript-eslint/parser',
+//   parserOptions: {
+//     ecmaVersion: 2020,
+//     tsconfigRootDir: __dirname,
+//     project: [
+//       /*'./tsconfig.eslint.json', */
+//       './packages/*/tsconfig.json',
+//       './apps/*/tsconfig.json'
+//       //w './tsconfig.json'
+//     ]
+//   },
+//   plugins: ['@typescript-eslint'],
+//   root: true,
+// };
+
 module.exports = {
-  root: true,
   extends: ["custom"],
+  root: true,
+  parserOptions: {
+    tsconfigRootDir: __dirname,
+    project: true,
+
+  }
 };
 
 // module.exports = {

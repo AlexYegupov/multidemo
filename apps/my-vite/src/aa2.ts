@@ -7,6 +7,6 @@ function test(a: number) {
 }
 
 console.log(React)
-console.log(test(1))
+console.log(test('a'))
 console.log(aa)
 console.log(aa === -0)

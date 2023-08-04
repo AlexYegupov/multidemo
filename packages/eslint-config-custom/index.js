@@ -1,18 +1,22 @@
 module.exports = {
   env: {
     node: true,
+    // browser: true
   },
   parser: "@typescript-eslint/parser",
   extends: [
     "eslint:recommended",
     //"plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-type-checked",
-    "prettier",
+    //nw "prettier",
   ],
-  plugins: ["@typescript-eslint"],
+  plugins: [
+    "@typescript-eslint",
+    //nw "prettier"
+  ],
   parserOptions: {
     sourceType: "module",
-    ecmaVersion: 2020,
+    ecmaVersion: "latest" ,
     // https://typescript-eslint.io/linting/typed-linting
     //tsconfigRootDir: __dirname,
     project:
@@ -22,6 +26,7 @@ module.exports = {
   },
   rules: {
     "no-var": "error",
-    "no-compare-neg-zero": "warn"
+    "no-compare-neg-zero": "error",
+    "@typescript-eslint/no-unsafe-assignment": "error"
   },
 };

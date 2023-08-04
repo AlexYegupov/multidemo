@@ -1,9 +1,12 @@
 import React from "react";
 
 let aa = 4;
+aa += "R_OK";
+
+let a = 10;
 
 function test(a) {
-  return a + 3;
+  return a + 1;
 }
 
 console.log(React);

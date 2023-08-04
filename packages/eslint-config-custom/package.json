@@ -12,5 +12,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.1"
   }
 }

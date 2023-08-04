@@ -1,3 +1,15 @@
+NOTE:
+
+to support yarn pnp run vscode/codium via:
+
+
+```
+yarn pnpify codium .
+```
+
+# ORIGINAL README:
+
+
 # `Turborepo` Vite starter
 
 This is an official starter Turborepo.

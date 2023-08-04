@@ -1,4 +1,11 @@
 module.exports = {
-  root: true,
   extends: ["custom"],
+  root: true,
+  parserOptions: {
+    tsconfigRootDir: __dirname,
+    project: true,
+  },
+  rules: {
+    "no-compare-neg-zero": "warn",
+  }
 };

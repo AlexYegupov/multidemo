@@ -7,12 +7,15 @@
     "dev": "vite",
     "build": "pnpify tsc && vite build",
     "lint": "eslint src --ext ts,tsx,js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint --fix src --ext ts,tsx,js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "node ./test.js"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "ui": "workspace:^",
+    "ui2": "*"
   },
   "devDependencies": {
     "@types/react": "^18.2.13",
@@ -26,6 +29,7 @@
     "eslint-plugin-prettier": "latest",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
+    "prettier": "^3.0.3",
     "tsconfig": "*",
     "typescript": "^5.1.6",
     "vite": "^4.3.9"

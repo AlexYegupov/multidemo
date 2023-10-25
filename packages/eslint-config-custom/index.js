@@ -26,7 +26,7 @@ module.exports = {
   },
   rules: {
     "no-var": "error",
-    "no-compare-neg-zero": "error",
+    "no-compare-neg-zero": "warn",
     "@typescript-eslint/no-unsafe-assignment": "error"
   },
 };

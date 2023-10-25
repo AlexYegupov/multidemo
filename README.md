@@ -1,11 +1,23 @@
-NOTE:
+## Code editors
 
-to support yarn pnp run vscode/codium via:
+### Emacs
+
+  run via pnpify (`yarn pnpify emacs .`) at the project root and use `flycheck-mode`, `web-mode`, `tide-mode`
+
+### VScode
+
+   А `jump to definition` for the local workspace works if packages in `package.json` declared as:
+
+  ```
+  "myLocalPackage": "workspace:^"
+  ```
+
+  run to configure:
+    ```
+    yarn dlx @yarnpkg/sdks vscode
+    ```
 
 
-```
-yarn pnpify codium .
-```
 
 # ORIGINAL README:
 

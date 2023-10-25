@@ -1,12 +1,20 @@
-import React from "react";
+import React from 'react';
+import { Header } from 'ui';
+import { Counter } from 'ui2';
 
-let aa = 4;
+var aa = 4;
+aa += 'R_OK';
+
+Math.sin(34);
 
 function test(a) {
   return a + 3;
 }
 
-console.log(React);
-console.log(test("1"));
-console.log(aa);
+let a = 19;
+
+console.log(React, Header, Counter);
+console.log(test('1'));
+console.log(aa, a);
+console.log(aa == 1);
 console.log(aa === -0);

@@ -1,8 +1,10 @@
 import "./style.css";
 import typescriptLogo from "./typescript.svg";
 import { Header, Counter, setupCounter } from "ui";
+import React from "react";
 
-//let aa = 4; aa += 'R_OK'; 
+let aa = 4; aa += 'R_OK'; 
+console.log(React)
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>

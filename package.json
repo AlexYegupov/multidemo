@@ -5,7 +5,7 @@
     "apps/*",
     "packages/*"
   ],
-  "packageManager": "yarn@3.5.1",
+  "packageManager": "yarn@3.6.1",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -13,11 +13,17 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
     "@yarnpkg/pnpify": "^4.0.0-rc.45",
     "@yarnpkg/sdks": "^3.0.0-rc.45",
-    "eslint": "^7.32.0",
+    "eslint": "^8.51.0",
+    "eslint-config-airbnb": "latest",
     "eslint-config-custom": "*",
-    "prettier": "^2.5.1",
-    "turbo": "latest"
+    "eslint-plugin-react": "^7.28.0",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "turbo": "latest",
+    "typescript": "^5.1.6"
   }
 }

@@ -27,8 +27,10 @@ module.exports = {
   root: true,
   parserOptions: {
     tsconfigRootDir: __dirname,
-    project: true,
-
+    project: true
+  },
+  rules: {
+    "no-var": 'warn',
   }
 };
 

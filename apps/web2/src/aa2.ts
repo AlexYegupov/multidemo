@@ -1,21 +1,22 @@
-import React from "react";
-import { Header } from "ui";
+import React from 'react';
+import { Header } from 'ui';
+import { Counter } from 'ui2';
 
-let aa = 4;
-aa += "R_OK";
+var aa = 4;
+aa += 'R_OK';
 
 function test(a: number) {
-  return a + "sadf";
+  return a + 'sadf';
 }
 
-console.log(React, Header);
-console.log(test("a"));
+console.log(React, Header, Counter);
+console.log(test('a'));
 console.log(
   aa,
-  "asddasffdas sdfasdfasdf",
-  "asddasffdas sdfasdfasdf",
-  "asddasffdas sdfasdfasdf",
-  "asddasffdas sdfasdfasdf",
-  "asddasffdas sdfasdfasdf"
+  'asddasffdas sdfasdfasdf',
+  'asddasffdas sdfasdfasdf',
+  'asddasffdas sdfasdfasdf',
+  'asddasffdas sdfasdfasdf',
+  'asddasffdas sdfasdfasdf',
 );
 console.log(aa === -0);

@@ -6,6 +6,7 @@ module.exports = {
     project: true,
   },
   rules: {
+    "no-var": "off",
     "no-compare-neg-zero": "warn",
   }
 };

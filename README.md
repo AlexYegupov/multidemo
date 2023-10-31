@@ -1,3 +1,6 @@
+##
+turbo + workspaces + yarn3 + typescript + eslint + prettier + vscode config
+
 ## Code editors
 
 ### Emacs
@@ -28,7 +31,7 @@
    - correctly show typescript & jsx syntax
    - prettier code autofix
    - eslint show errors and can call "Eslint: fix all auto-fixable problems"
-   - "go to definition should work (including other workspaces libraries) 
+   - "go to definition should work (including other workspaces libraries)
 
 
 

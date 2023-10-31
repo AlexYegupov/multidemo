@@ -12,4 +12,6 @@
   "editor.formatOnSave": true,
   "prettier.enableDebugLogs": true,
   "eslint.debug": true
+  "typescript.tsserver.log": "normal",
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true
 }

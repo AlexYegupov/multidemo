@@ -17,6 +17,19 @@
     yarn dlx @yarnpkg/sdks vscode
     ```
 
+  Note: to make vscode jump to sources work required those root dev packages:
+    "eslint": "^8.52.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.1.6"
+
+  Also seems like with typescript 5.2 "go to definition" not works
+
+  What should work in vscode:
+   - correctly show typescript & jsx syntax
+   - prettier code autofix
+   - eslint show errors and can call "Eslint: fix all auto-fixable problems"
+   - "go to definition should work (including other workspaces libraries) 
+
 
 
 # ORIGINAL README:

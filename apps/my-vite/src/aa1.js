@@ -13,8 +13,10 @@ function test(a) {
 
 let a = 19;
 
-console.log(React, Header, Counter);
+let b =   <div>asddfas sdfsdfa</div>;
+
+console.log(React,  Header, Counter);
 console.log(test('1'));
-console.log(aa, a);
+console.log(aa, a, b);
 console.log(aa == 1);
 console.log(aa === -0);

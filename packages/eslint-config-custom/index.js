@@ -6,8 +6,8 @@ module.exports = {
   parser: "@typescript-eslint/parser",
   extends: [
     "eslint:recommended",
-    //"plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-type-checked",
+    "plugin:@typescript-eslint/recommended",
+    //nw "plugin:@typescript-eslint/recommended-type-checked",
     //nw "prettier",
   ],
   plugins: [
@@ -20,6 +20,7 @@ module.exports = {
     // https://typescript-eslint.io/linting/typed-linting
     //tsconfigRootDir: __dirname,
     project:
+      // https://typescript-eslint.io/linting/typed-linting/monorepos
       true,
       //['tsconfig.json'],
       //['./packages/*/tsconfig.json', './apps/*/tsconfig.json']

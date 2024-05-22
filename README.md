@@ -10,8 +10,8 @@ Assumed that project documentation is created __mainly__ by the developer alongs
 
 ## Quick start
 
-``` 
-yarn 
+```
+yarn
 yarn docs:build
 yarn docs:preview
 ```
@@ -43,7 +43,7 @@ Proc:
   - QA can easily see DIFF changes in documentation => can pay attention to the correspondent parts of the system that were changed
 
 Cons:
-  - the necessity to create a git commit on documentation changes.
+  - the necessity to create a git commit on documentation changes. But it's ok when changes in code means necessity to make changes in docs
 
 
 

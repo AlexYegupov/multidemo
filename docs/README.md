@@ -42,3 +42,19 @@ formatting: **bold**  ***italic*** <s>strikethrough</s>
       is
         formatted
           text
+
+# Check dead links warnings (via remark-validate-links)
+
+*   Real local anchor: [#local-chapter](#local-chapter)
+*   Real page: [page2](page2.md)
+*   Real page & real anchor: [page#chapter-2](page2.md#chapter-2)
+
+To check dead links uncomment lines below:
+
+<!-- *   Dead local anchor: [#dead-local-chapter](#dead-local-chapter) -->
+
+<!-- *   Dead page: [dead-link](dead-link) -->
+
+<!-- *   Real page & dead anchor: [page2#dead-anchor](page2.md#dead-anchor) -->
+
+## Local Chapter

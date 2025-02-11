@@ -24,7 +24,8 @@
     "docs:build": "rm -rf ./docs/_sidebar.md && yarn docs:build:remark && yarn docs:build:docsify",
     "docs:build:remark": "yarn remark -f --use remark-validate-links ./docs -o ./docs",
     "docs:build:docsify": "./bin/build-docsify.sh",
-    "docs:preview": "(cd docs && python3 -m http.server $PORT||3000)"
+    "docs:preview": "(cd docs && python3 -m http.server $PORT||3000)",
+    "docs:preview-live": "docsify serve docs --port ${PORT:-3000}"
   },
   "browserslist": {
     "production": [
@@ -59,5 +60,6 @@
     "docsify-cli": "^4.4.4",
     "remark-autolink-references": "^2.0.0",
     "remark-lint-no-dead-urls": "^1.1.0"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
